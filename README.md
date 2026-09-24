@@ -2,6 +2,8 @@
 
 An end-to-end machine learning application that analyses a customer's demographic and financial profile to predict the likelihood of **credit card default**. Built entirely in Python using a Random Forest classifier and a Streamlit frontend.
 
+📦 **Dataset source:** [Credit Risk Prediction Dataset — Kaggle](https://www.kaggle.com/datasets/usmanirfnn/credit-risk-prediction-dataset)
+
 ---
 
 ## 📁 Project Structure
