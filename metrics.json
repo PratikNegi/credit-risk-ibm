@@ -1,0 +1,125 @@
+{
+  "accuracy": 0.9604,
+  "roc_auc": 0.9953,
+  "classification_report": {
+    "0": {
+      "precision": 0.998133399701344,
+      "recall": 0.95864706585395,
+      "f1-score": 0.9779918307626654,
+      "support": 8367.0
+    },
+    "1": {
+      "precision": 0.6766355140186916,
+      "recall": 0.979702300405954,
+      "f1-score": 0.8004422332780542,
+      "support": 739.0
+    },
+    "accuracy": 0.9603558093564682,
+    "macro avg": {
+      "precision": 0.8373844568600177,
+      "recall": 0.9691746831299519,
+      "f1-score": 0.8892170320203598,
+      "support": 9106.0
+    },
+    "weighted avg": {
+      "precision": 0.9720421480519393,
+      "recall": 0.9603558093564682,
+      "f1-score": 0.9635827430687133,
+      "support": 9106.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      8021,
+      346
+    ],
+    [
+      15,
+      724
+    ]
+  ],
+  "feature_names": [
+    "age",
+    "gender",
+    "owns_car",
+    "owns_house",
+    "no_of_children",
+    "net_yearly_income",
+    "no_of_days_employed",
+    "occupation_type",
+    "total_family_members",
+    "migrant_worker",
+    "yearly_debt_payments",
+    "credit_limit",
+    "credit_limit_used(%)",
+    "credit_score",
+    "prev_defaults",
+    "default_in_last_6months"
+  ],
+  "feature_importances": [
+    {
+      "feature": "credit_score",
+      "importance": 0.45627375411640253
+    },
+    {
+      "feature": "credit_limit_used(%)",
+      "importance": 0.2840083036726712
+    },
+    {
+      "feature": "prev_defaults",
+      "importance": 0.1240742379163689
+    },
+    {
+      "feature": "default_in_last_6months",
+      "importance": 0.09665217557629259
+    },
+    {
+      "feature": "no_of_days_employed",
+      "importance": 0.011952383511290675
+    },
+    {
+      "feature": "yearly_debt_payments",
+      "importance": 0.00588273497401436
+    },
+    {
+      "feature": "net_yearly_income",
+      "importance": 0.0049315794875350585
+    },
+    {
+      "feature": "credit_limit",
+      "importance": 0.0047416188497533636
+    },
+    {
+      "feature": "occupation_type",
+      "importance": 0.0030009807823315753
+    },
+    {
+      "feature": "age",
+      "importance": 0.0028760943145001547
+    },
+    {
+      "feature": "gender",
+      "importance": 0.0021478674408239562
+    },
+    {
+      "feature": "no_of_children",
+      "importance": 0.0009694854653920574
+    },
+    {
+      "feature": "total_family_members",
+      "importance": 0.0008553917612161381
+    },
+    {
+      "feature": "owns_car",
+      "importance": 0.0006738954461384785
+    },
+    {
+      "feature": "owns_house",
+      "importance": 0.0005387299176194201
+    },
+    {
+      "feature": "migrant_worker",
+      "importance": 0.00042076676764947414
+    }
+  ]
+}
